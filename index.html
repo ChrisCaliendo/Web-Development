@@ -2,23 +2,30 @@
 <html>
     
     <head>
+
         <title> Christian Caliendo's Website </title>
         
+        <link rel="stylesheet" href="stylefile.css">
+
         <style>
-            .thin_text_column {margin-left: 30%; margin-right: 30%;}
+            h1 {
+                font-style: italic;
+            }
         </style>
+        
     </head>
-    <body style="text-align:center; background-color:blanchedalmond">
+    <body>
 
         <div id="top">
-            <h1><em> Christian Caliendo's Website </em></h1>
+            <h1>Christian Caliendo's Website </h1>
         </div>
 
         <br>
 
-        <div id="menu">
+        <div id="menu" class="large">
             <h2> Menu </h2>
-                <table border="#006633" align="center">
+                
+                <table align="center">
                     <tr>
                         <td>
                             <form action="#introduction">
@@ -68,52 +75,60 @@
                         
                 </tr>
             </table>
+            
         </div>
+        
         <hr>
         <br>
 
-        <div id="introduction" class="thin_text_column">
-            <h3"> Introduction </h3>
-            <p> 
+        <div id="introduction" class="box">
+            <h3> Introduction </h3 >
+            <p class="small"> 
                 My name is Christian Caliendo, Im currently 20. I'm a Computer Science 
                 major at St. Johns University and this is what I look like: 
             </p>
-            <p>
+            <p class="large">
                 
                 <img src="https://github.com/ChrisCaliendo/Web-Development/blob/main/christianPhoto.PNG?raw=true">
-            </p>
-            <p>
-                <img src="https://pbs.twimg.com/profile_images/716674043953418241/tVjwnPSj_400x400.jpg" height="250">
+            
+                <img src="https://pbs.twimg.com/profile_images/716674043953418241/tVjwnPSj_400x400.jpg" height="310">
             </p>
         </div>
 
         <br>
-
-        <div id="my_education" class="thin_text_column">
+        
+        <div class="bar">
+        <div id="my_education" class="box">
             <h3> My Education </h3>
-            <p > 
+            <p class="small"> 
             I am a high school graduate from Queens High School of Teaching in
             the borough of Queens in New York. I am now a junior in college attending 
             St. Johns University in hopes to attain a Bachelor's Degree in 
             Computer Science.
             </p>
+            <p class="large">
+                
+                <img src="https://qhst.files.wordpress.com/2010/11/qht-photo.jpg">
+            
+            </p>
+        </div>
         </div>
 
         <br>
 
-        <div id="work_exp" class="thin_text_column">
-            <h3> My Work Experience </h3>
+        <div id="work_exp" class="small box">
+            <h3 > My Work Experience </h3>
             <p>While my work expertise is limited but it does include:</p>
-            <ui>
+            <ul>
                 <li> Worked summers helping out at an architecturial firm called Caliendo Architects</li>
                 <li> 2 years of work experience at a Dunkin Donuts</li>
                 <li> Helping a company move from one office to another</li>
-            </ui>
+            </ul>
         </div>
 
         <br>
 
-        <div id="program_skills" class="thin_text_column">
+        <div id="program_skills" class="medium box">
             <h3> My Programming Skills </h3>
             <p> 
             I have experience in programming with the following languages:
@@ -155,7 +170,7 @@
 
         <br>
 
-        <div id="interests" class="thin_text_column">
+        <div id="interests" class="small box">
             <h3> Interests </h3>
             <p>
                 I have many personal interests and hobbies that I like to do in my 
@@ -176,22 +191,22 @@
 
         <br>
 
-        <div id="favorite_media" class="thin_text_column">
+        <div id="favorite_media" class="medium box">
             <h3> My Tastes </h3>
             <p> My favorite movie is Spiderman into the Spiderverse. Here is one of the clips from it that I especially like </p>
-            <iframe width="420" height="236.25" src="https://www.youtube.com/embed/DVz0tIIwyhM"> </iframe>
+            <iframe src="https://www.youtube.com/embed/DVz0tIIwyhM"> </iframe>
             <p> A favorite song that I used to listen to in high school was called "Lone Digger" by Caravan Palace. While I dont listen to it as much now its still a hit in my eyes</p>
-            <iframe width="420" height="236.25" src="https://www.youtube.com/embed/TbsBEb1ZxWA"> </iframe>
+            <iframe src="https://www.youtube.com/embed/TbsBEb1ZxWA"> </iframe>
             <p> A favorite TV show I liked as a kid was "Regular Show". A timeless classic thats fun and comedic for all ages. Down below I put a youtube video of a free episode from the show for you to enjoy</p>
-            <iframe width="420" height="236.25" src="https://www.youtube.com/embed/_X7z-NFx6tE"> </iframe>
+            <iframe src="https://www.youtube.com/embed/_X7z-NFx6tE"> </iframe>
         </div>
 
         <br>
 
-        <div id="favorite_websites">
-            <h3> My Favorite Websites </h3>
+        <div id="favorite_websites" class="medium">
+            <h3> My Favorite Websites </h3 >
             <p> Here I provided a list of websites that I prefer to use in my free time:</p>
-            <table style="text-align:center;" class="thin_text_column" border="#006633;"  bgcolor=beige>
+            <table  id="information_table">
                 
                 <tr>
                     <th> Name: </th>
@@ -200,36 +215,36 @@
                 </tr>
 
                 <tr> 
-                    <td><span style="color:red;"> Youtube </span></td>
+                    <td><span id="youtube_color"> Youtube </span></td>
                     <td>Youtube is a video sharing platform that is used by many to watch free internet based content.
                      Its a good way to spend time whether it be for comedy, finding information on a subject for 
                      educational purposes or just pure entertainment.</td>
-                    <td><a href="https://www.youtube.com" target="_blank"> Go to Youtube.com </a></td>
+                    <td><a href="https://www.youtube.com" target="_blank" id="youtube_color"> Go to Youtube.com </a></td>
                 </tr>
             
                 <tr> 
-                    <td><span style="color:rgb(70, 117, 117);">Twitter:</span></td>
+                    <td><span id="twitter_color">Twitter:</span></td>
                     <td>Twitter is a social media platform for posting about your life, career or just however your 
                     feeling to the internet and is also a way to keep in touch with whats happening in the rest 
                     of the world beyond your scope.</td>
-                    <td><a href="https://twitter.com" target="_blank"> Go to Twitter.com </a></td>
+                    <td><a href="https://twitter.com" target="_blank" id="twitter_color"> Go to Twitter.com </a></td>
                 </tr>
            
                 <tr> 
-                    <td><span style="color:blue;">Discord:</span></td>
+                    <td><span id="discord_color">Discord:</span></td>
                     <td>Discord is a free social media platform where you start a server for chatting with your 
                     friends and social groups whether it be text chat based or voice chat based. You can also 
                     share your screen with a group of people and watch youtube videos together and I highly
                     recommend it for long distance relationships as well as remote group activity</td>
-                    <td><a href="https://discord.com" target="_blank"> Go to Discord.com </a></td>
+                    <td><a href="https://discord.com" target="_blank" id="discord_color"> Go to Discord.com </a></td>
                 </tr>
 
                 <tr> 
-                    <td><span style="color:rgb(98, 148, 24);">Itch.io:</span></td>
+                    <td><span id="itch_color">Itch.io:</span></td>
                     <td>Itch is a popular platform for online game developers to post games as well as play them.
                     They have very welcoming communities and resourses and also host game jams for people to
                     participate in often </td>
-                    <td><a href="https://itch.io/" target="_blank"> Go to Itch.io </a></td>
+                    <td><a href="https://itch.io/" target="_blank" id="itch_color"> Go to Itch.io </a></td>
                 </tr>
 
             </table>
@@ -237,7 +252,7 @@
 
         <br>
 
-        <div id="web_dev_projects" class="thin_text_column">
+        <div id="web_dev_projects" class="medium box">
             <h3> My Web Dev Projects </h3>
             <p> As of right now my only current Web Development project is this very web page. 
             As time goes on this list will expand and will be updated here.
@@ -251,15 +266,15 @@
         </div>
 
         <br>
-
-        <div id="contacts">
+        <div class="bar">
+        <div id="contacts" >
             <h3>Contacts</h3>
             <p>School Email: christian.caliendo@my.stjohns.edu</p>
         </div>
 
         <br>
 
-        <div id="bottom" >
+        <div id="bottom">
             <table align="center">
                 <tr>
                     <td>
@@ -276,6 +291,6 @@
             </table>
             
         </div>
-
+        </div>
     </body>
 </html>
