@@ -55,7 +55,9 @@
 
 /* Class Selectors */
 
-
+p {
+    font-family: "Helvetica";
+}
 .box{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -107,7 +109,8 @@ li {
     padding: 5px;
     margin-left: 35px;
     margin: 5px;
-    
+    font-family: "Helvetica";
+    font-size: small;
 }
 
 h3 {
@@ -123,15 +126,20 @@ a {
 }
 
 iframe{
-    border: 3px dotted;
+    border: 3px black;
     width: 640px;
     height: 360px;
+}
+
+td{
+    font-family: "Helvetica";
+    font-size: small;
 }
 
 /* Media Tag Selectors */
 @media (max-width:1622px){
     iframe{
-        border: 3px dotted;
+        border: 3px black;
         width: 426px;
         height: 240px;
     }
@@ -141,7 +149,7 @@ iframe{
 /* Id Selectors */
 
 #menu{
-    background-color: #ff9999;
+    background-color: whitesmoke;
     background-size: 100%;
 }
 
@@ -155,6 +163,18 @@ iframe{
 
 #menu table, #bottom table {
     background-color:rgb(209, 233, 253);
+}
+
+#introduction {
+    background: #ffe5e5;
+    border-width: 5px;
+    border-style: solid;
+    border-color:#ff9999;
+}
+
+#introduction img {
+  max-height: 300px;
+  border: 5px solid black;
 }
 
 #my_education {
@@ -173,6 +193,14 @@ iframe{
     border-width: 5px;
     border-style: solid;
     border-color:chocolate;
+    padding: 10px;
+}
+
+#program_skills{
+    background-color:lightcyan;
+    border-width: 5px;
+    border-style: solid;
+    border-color:lightslategrey;
     padding: 10px;
 }
 
@@ -217,15 +245,16 @@ iframe{
     color:rgb(139, 189, 189);
 }
 
-#program_skills{
-    background-color:lightcyan;
+
+
+#web_dev_projects{
+    background-color:#1f294b;
     border-width: 5px;
     border-style: solid;
-    border-color:lightslategrey;
+    border-color:midnightblue;
     padding: 10px;
+    color:aliceblue;
 }
-
-
 
 
 
