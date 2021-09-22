@@ -256,7 +256,9 @@ td{
     color:aliceblue;
 }
 
-
+#web_dev_projects> p, #web_dev_projects> p> a{
+    color:aliceblue;
+}
 
 
 
