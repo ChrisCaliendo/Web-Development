@@ -76,7 +76,7 @@ p {
 
 body {
     text-align:center; 
-    background-color: blanchedalmond;
+    background-color: blanchedalmond !important;
 }
 
 
@@ -98,9 +98,7 @@ table, th{
 }
 
 ul{
-    background: #ff9999;
     list-style-type: square;
-    padding: 25px;
     list-style-position: inside;
 }
 
@@ -186,6 +184,11 @@ td{
     border-width: 5px;
     border-style: solid;
     border-color:#ff9999;
+}
+
+#work_exp>ul{
+    background: #ff9999;
+    padding: 25px;
 }
 
 #interests {
