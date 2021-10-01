@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            alert('Welcome to Christian Caliendos Website');
+        </script>
+        <title>My Website</title>
+    </head>
+    <body>
+        <h1>Welcome to my Website!</h1>
+    </body>
+</html>
