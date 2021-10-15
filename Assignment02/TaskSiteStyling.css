@@ -1,0 +1,37 @@
+body{
+    background: rgb(224, 255, 232) !important;
+}
+
+#webpage_header{
+    background: transparent;
+    background-color:rgb(161, 240, 161);
+}
+
+#sub_header{
+    text-align: center;
+}
+
+#hidden_text{
+    visibility: hidden;
+}
+
+td{
+    padding-right: 0.5cm;
+    
+}
+
+.list-group-item-success>h5{
+    text-decoration: line-through;
+}
+
+.list-group-item-danger>h5{
+    text-decoration: line-through;
+}
+
+.rightSide{
+    text-align: end;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
