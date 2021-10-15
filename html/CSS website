@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+
+        <title> Christian Caliendo's Website </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cssfiles/mycss_web.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <style>
+            h1 {
+                font-style: italic;
+            }
+            .carousel-inner{
+            width:100%;
+            max-height: 400px !important;
+            }
+            /* Make the image fully responsive */
+            
+        </style>
+        
+    </head>
+    <body>
+
+        <div id="top" class="jumbotron text-center">
+            <h1>Christian Caliendo's Website </h1> 
+        </div>
+
+        <br>
+
+        <div id="menu" class="large">
+            
+            <div>
+                <h2 align="center"> Menu </h2>
+                
+                <table align="center">
+                    <tr >
+                        <td>
+                            <form action="#introduction">
+                                <input type="submit" class="btn btn-info" value="Introduction">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#my_education">
+                                <input type="submit" class="btn btn-info" value="Education">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#work_exp">
+                                <input type="submit" class="btn btn-info" value="Work Experience">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#program_skills">
+                                <input type="submit" class="btn btn-info" value="Programing Skills">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#interests">
+                                <input type="submit" class="btn btn-info" value="Interests">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#favorite_media">
+                                <input type="submit" class="btn btn-info" value="Favorite Media">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#favorite_websites">
+                                <input type="submit" class="btn btn-info" value="Favorite Websites">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#web_dev_projects">
+                                <input type="submit" class="btn btn-info" value="Web Development Projects">
+                            </form>
+                        </td>
+                        <td>
+                            <form action="#contacts">
+                                <input type="submit" class="btn btn-info" value="Contacts">
+                            </form>
+                        </td>
+                        
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <hr>
+        <br>
+
+        <div id="introduction" class="container-fluid, medium box" align="center">
+            <div class="row" >
+                <div class="col-sm-12">
+                    <h3> Introduction </h3 >
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p class="small"> 
+                My name is Christian Caliendo, Im currently 20. I'm a Computer Science 
+                major at St. Johns University and this is what I look like: 
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="resources/christianPhoto.png" >
+                </div>
+                <div class="col-sm-6">
+                    <img src="https://pbs.twimg.com/profile_images/716674043953418241/tVjwnPSj_400x400.jpg" style="border-radius: 50%;">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        
+        <div id="my_education" class="bar" align="center">
+            <div  class="container-fluid, box">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h3> My Education </h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <p class="small"> 
+                        I am a high school graduate from Queens High School of Teaching in
+                        the borough of Queens in New York. I am now a junior in college attending 
+                        St. Johns University in hopes to attain a Bachelor's Degree in 
+                        Computer Science.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        
+        <div id="demo" class="carousel slide, small" data-ride="carousel">
+            
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1" ></li>
+              <li data-target="#demo" data-slide-to="2" ></li>
+            </ul>
+          
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://qhst.files.wordpress.com/2010/11/qht-photo.jpg" class="d-block w-100" alt="pic1">
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.rivals.com/image/upload/f_auto,q_auto,t_large/rgihtdpfau8d6lq9flol" alt="pic3">
+              </div>
+              <div class="carousel-item">
+                <img src="https://multiplyiq.com/wp-content/uploads/2017/05/26Q566_1_Queens_High_School_of_Teaching_Liberal_Arts_and_the_Sciences.jpg" class="d-block w-100" alt="pic2">
+              </div>
+            </div>
+          
+           
+            <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+        </div>
+        </div>
+
+        <br>
+
+        <div id="work_exp" class="small box">
+            <h3 > My Work Experience </h3>
+            <p>While my work expertise is limited but it does include:</p>
+            <ul>
+                <li> Worked summers helping out at an architecturial firm called Caliendo Architects</li>
+                <li> 2 years of work experience at a Dunkin Donuts</li>
+                <li> Helping a company move from one office to another</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <div id="program_skills" class="medium box" align="center">
+            <h3> My Programming Skills </h3>
+            <p> 
+            I have experience in programming with the following languages:
+            </p>
+            <h4>Java</h4>
+            <p>
+                I have taken multiple data structure courses in college to learn
+                how write code in Java. I have passed two of these clases as of 
+                yet and have a record of completed java programs.
+            </p>
+            <h4>Python</h4>
+            <p>
+                While I have yet to write any large scale programs alike to the 
+                record I have in java I have experience with the basics of the 
+                language.
+            </p>
+            <h4>GDscript</h4>
+            <p>
+                As a hobby I try to program games and I typically use the language 
+                GDscript to do so. It is very similar to Python so it was simple 
+                to get a hang of and I as of date have made multiple projects with
+                it.
+            </p>
+            <h4>SQL</h4>
+            <p>
+                I have taken a past class on databases in college and as being a 
+                database language and utilizing the MySQL program I have learned 
+                the basics in creating and managing a standard database using that 
+                language.
+            </p>
+            <h4>HTML</h4>
+            <p>
+                My only experience in writing in HTML is while in the creation of
+                this very webpage. In the past however I was familiar with it while 
+                making slight edits to webpages using inspect element in a browser.
+            </p>
+            </p>
+        </div>
+
+        <br>
+
+        <div id="interests" class="container, small box">
+            <div class="card">
+                <div class="card-header">
+                    <h3> Interests </h3>
+                </div>
+                <div class="card-body">
+                    <p>
+                    I have many personal interests and hobbies that I like to do in my 
+                    spare time. First of which as stated before is that I have a passion 
+                    to get into game development and have attempted and in someways 
+                    succeeded at making small games for desktop. Another hobby of mine 
+                    as evident of being in this class is programming. I have made some 
+                    personal programing projects on the side with the use of Python. 
+                    An example of such is the development of a discord bot that allows
+                    you to play games in a discord server chat with others. Another 
+                    hobby of mine is creating art, while im no professional I like to
+                    do some art on the side. Even recently Ive learned to create 3d art 
+                    with the aid of programs such as Blender and have had a lot of fun
+                    doing so. These are just a few examples of what I like to do for 
+                    hobbies and fun.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div id="favorite_media" class="medium box" align="center">
+            <h3> My Tastes </h3>
+            <p> My favorite movie is Spiderman into the Spiderverse. Here is one of the clips from it that I especially like </p>
+            <iframe src="https://www.youtube.com/embed/DVz0tIIwyhM"> </iframe>
+            <p> A favorite song that I used to listen to in high school was called "Lone Digger" by Caravan Palace. While I dont listen to it as much now its still a hit in my eyes</p>
+            <iframe src="https://www.youtube.com/embed/TbsBEb1ZxWA"> </iframe>
+            <p> A favorite TV show I liked as a kid was "Regular Show". A timeless classic thats fun and comedic for all ages. Down below I put a youtube video of a free episode from the show for you to enjoy</p>
+            <iframe src="https://www.youtube.com/embed/_X7z-NFx6tE"> </iframe>
+        </div>
+
+        <br>
+
+        <div id="favorite_websites" class="container table table-bordered table-striped small" align="center">
+            <h3> My Favorite Websites </h3 >
+            <p class="bg-dark text-white"> Here I provided a list of websites that I prefer to use in my free time:</p>
+            <table  id="information_table">
+                
+                <tr>
+                    <th> Name: </th>
+                    <th> Description: </th>
+                    <th> Link: </th>
+                </tr>
+
+                <tr> 
+                    <td><span id="youtube_color"> Youtube </span></td>
+                    <td>Youtube is a video sharing platform that is used by many to watch free internet based content.
+                     Its a good way to spend time whether it be for comedy, finding information on a subject for 
+                     educational purposes or just pure entertainment.</td>
+                    <td><a href="https://www.youtube.com" target="_blank" id="youtube_color"> Go to Youtube.com </a></td>
+                </tr>
+            
+                <tr> 
+                    <td><span id="twitter_color">Twitter:</span></td>
+                    <td>Twitter is a social media platform for posting about your life, career or just however your 
+                    feeling to the internet and is also a way to keep in touch with whats happening in the rest 
+                    of the world beyond your scope.</td>
+                    <td><a href="https://twitter.com" target="_blank" id="twitter_color"> Go to Twitter.com </a></td>
+                </tr>
+           
+                <tr> 
+                    <td><span id="discord_color">Discord:</span></td>
+                    <td>Discord is a free social media platform where you start a server for chatting with your 
+                    friends and social groups whether it be text chat based or voice chat based. You can also 
+                    share your screen with a group of people and watch youtube videos together and I highly
+                    recommend it for long distance relationships as well as remote group activity</td>
+                    <td><a href="https://discord.com" target="_blank" id="discord_color"> Go to Discord.com </a></td>
+                </tr>
+
+                <tr> 
+                    <td><span id="itch_color">Itch.io:</span></td>
+                    <td>Itch is a popular platform for online game developers to post games as well as play them.
+                    They have very welcoming communities and resourses and also host game jams for people to
+                    participate in often </td>
+                    <td><a href="https://itch.io/" target="_blank" id="itch_color"> Go to Itch.io </a></td>
+                </tr>
+
+            </table>
+        </div>
+
+        <br>
+
+        <div id="web_dev_projects" class="container, medium box" align="center">
+            <h3> My Web Dev Projects </h3>
+            <h4>Project 1</h4>
+            <p> 
+                <a href="https://rkileaders.teachable.com/courses/web-application-development/lectures/13897368" target="_blank"> Project 1 Milestone 1: Creating a Website </a> <span class="badge badge-info">Complete</span>
+            </p> 
+            <p>
+                <a href="https://rkileaders.teachable.com/courses/764038/lectures/14006347" target="_blank"> Project 1 Milestone 2: Using CSS Styling </a> <span class="badge badge-info">Complete</span>
+            </p>
+            <p>
+                <a href="https://rkileaders.teachable.com/courses/764038/lectures/14221053" target="_blank"> Project 1 Milestone 3: Incorperating Bootstraps </a> <span class="badge badge-info">Complete</span>
+            </p>   
+            <h4>Project 2</h4>
+            <p><span class="badge badge-secondary">TBD</span></p>
+            <h4>Project 3</h4>
+            <p><span class="badge badge-secondary">TBD</span></p>
+        </div>
+
+        <br>
+
+        <div id="">
+
+        </div>
+
+        <br>
+        <div class="bar">
+        <div id="contacts" align="center">
+            <h3>Contacts</h3>
+            <p>School Email: christian.caliendo@my.stjohns.edu</p>
+        </div>
+
+        <br>
+
+        <div id="bottom" align="center">
+            <table align="center">
+                <tr>
+                    <td>
+                        <form action="#menu">
+                            <input type="submit" value="Back To Menu">
+                        </form>
+                    </td>
+                    <td>
+                        <form action="#top">
+                            <input type="submit" value="Back To Top">
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+        </div>
+    </body>
+</html>
