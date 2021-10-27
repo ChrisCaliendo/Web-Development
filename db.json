@@ -26,7 +26,6 @@
             "options" : [],
         },
         {
-            //Q4
             "questionType" : "numInput",
             "questionText" : "The earth is round",
             "correctAnswer" : "true",
