@@ -1,7 +1,7 @@
 {
         "mathQuestions": [
         {
-            //Q0 *
+            
             questionType : "binaryChoice",
             questionText : "Is this a test?",
             correctAnswer : "yes",
