@@ -1,3 +1,4 @@
+{
 const mathQuestions = [
         {
             //Q0 *
@@ -157,3 +158,4 @@ const mathQuestions = [
             options : ["true", "false"],
         }
     ]
+}
