@@ -1,1 +1,159 @@
+const mathQuestions = [
+        {
+            //Q0 *
+            questionType : "binaryChoice",
+            questionText : "Is this a test?",
+            correctAnswer : "yes",
+            options : ["no", "yes"],
+        },
+        {
+            //Q1
+            questionType : "multiChoice",
+            questionText : "Which of these numbers is prime?",
+            correctAnswer : "223",
+            options : ["16", "223", "100", "225"],
+        },
+        {
+            //Q2
+            questionType : "numInput",
+            questionText : "What is [6 x 4 / 12 + 72 / 8 - 9]?",
+            correctAnswer : "2",
+            options : [],
+        },
+        {
+            //Q3
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q4
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q5
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q6
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q7
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q8
+            questionType : "numInput",
+            questionText : "The earth is round",
+            correctAnswer : "true",
+            options : [],
+        },
+        {
+            //Q9
+            questionType : "imgSelect",
+            questionText : "Which of these problems equal 55?",
+            correctAnswer : "mathImg4",
+            options : ["mathImg1", "mathImg2", "mathImg3", "mathImg4"],
+        },
+        {
+            //Q10
+            questionType : "binaryChoice",
+            questionText : "",
+            correctAnswer : "yes",
+            options : ["", "", "", "yes"],
+        }
+    ]
 
+    const triviaQuestions = [
+        {
+            //Q0 *
+            questionType : "binaryChoice",
+            questionText : "Is this a test?",
+            correctAnswer : "yes",
+            options : ["no", "yes"],
+        },
+        {
+            //Q1
+            questionType : "multiChoice",
+            questionText : "What is the capital of Spain?",
+            correctAnswer : "Madrid",
+            options : ["Paris", "England", "Madrid", "Berlin"],
+        },
+        {
+            //Q2
+            questionType : "multiChoice",
+            questionText : "What is the name for the fear for fish?",
+            correctAnswer : "Ichthyophobia",
+            options : ["Cynophobia", "Ichthyophobia", "Acrophobia", "Trypanophobia"],
+        },
+        {
+            //Q3
+            questionType : "multiChoice",
+            questionText : "How many colors are there in a rainbow?",
+            correctAnswer : "7",
+            options : ["5", "6", "7", "8"],
+        },
+        {
+            //Q4
+            questionType : "multiChoice",
+            questionText : "Who created Sherlock Holmes",
+            correctAnswer : "Arthur Conan Doyle",
+            options : ["William Shakespeare", "Arthur Conan Doyle", "Edgar Allan Poe", "Dr. Seuss"],
+        },
+        {
+            //Q5
+            questionType : "multiChoice",
+            questionText : "What is the most consumed manufactured drink in the world?",
+            correctAnswer : "Tea",
+            options : ["Tea", "Soda", "Milk", "Lemonade"],
+        },
+        {
+            //Q6
+            questionType : "multiChoice",
+            questionText : "What is the rarest M&M color?",
+            correctAnswer : "brown",
+            options : ["green", "red", "orange", "brown"],
+        },
+        {
+            //Q7
+            questionType : "multiChoice",
+            questionText : "What is the largest state in the United States by size?",
+            correctAnswer : "Alaska",
+            options : ["Alaska", "Texas", "California", "New York"],
+        },
+        {
+            //Q8
+            questionType : "multiChoice",
+            questionText : "Which country is responsible for creating the olympic games?",
+            correctAnswer : "Greece",
+            options : ["Italy", "Greece", "England", "France"],
+        },
+        {
+            //Q9
+            questionType : "multiChoice",
+            questionText : "How many countries in the world are there in Europe?",
+            correctAnswer : "44",
+            options : ["8", "50", "48", "44"],
+        },
+        {
+            //Q10
+            questionType : "true_false",
+            questionText : "",
+            correctAnswer : "true",
+            options : ["true", "false"],
+        }
+    ]
