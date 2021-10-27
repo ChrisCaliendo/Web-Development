@@ -2,7 +2,7 @@
         "mathQuestions": [
         {
             
-            questionType : "binaryChoice",
+            "questionType" : "binaryChoice",
             questionText : "Is this a test?",
             correctAnswer : "yes",
             options : ["no", "yes"],
