@@ -1,5 +1,5 @@
 {
-const mathQuestions = [
+        const mathQuestions = [
         {
             //Q0 *
             questionType : "binaryChoice",
