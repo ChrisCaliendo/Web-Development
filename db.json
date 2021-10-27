@@ -1,5 +1,5 @@
 {
-        const mathQuestions = [
+        "mathQuestions": [
         {
             //Q0 *
             questionType : "binaryChoice",
@@ -79,7 +79,7 @@
         }
     ]
 
-    const triviaQuestions = [
+    "triviaQuestions": [
         {
             //Q0 *
             questionType : "binaryChoice",
