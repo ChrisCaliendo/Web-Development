@@ -2,7 +2,7 @@
 {
     "mathQuestions": [
     {
-        
+        ""
         "questionType" : "binaryChoice",
         "questionText" : "Is this a test?",
         "correctAnswer" : "yes",
@@ -21,40 +21,40 @@
         "options" : []
     },
     {
+        "questionType" : "multiChoice",
+        "questionText" : "What is the square root of 121?",
+        "correctAnswer" : "11",
+        "options" : [ "9", "10", "11", "12"]
+    },
+    {
         "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
+        "questionText" : "What is the greatest common factor of 21 and 91?",
+        "correctAnswer" : "7",
         "options" : []
     },
     {
         "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
+        "questionText" : "What is 8 to the second power?",
+        "correctAnswer" : "64",
         "options" : []
     },
     {
         "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
-        "options" : []
-    },
-    {
-        "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
+        "questionText" : "What is [7 - 24 / 8 x 4 + 6]?",
+        "correctAnswer" : "1",
         "options" : []
     },
     {
         
         "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
+        "questionText" : "What is [24 - 16 / 4 x 2 + 3]?",
+        "correctAnswer" : "19",
         "options" : []
     },
     {
         "questionType" : "numInput",
-        "questionText" : "The earth is round",
-        "correctAnswer" : "true",
+        "questionText" : "Which of these numbers is a multiple of 6?",
+        "correctAnswer" : "72",
         "options" : []
     },
     {
@@ -133,8 +133,8 @@
     },
     {
         "questionType" : "true_false",
-        "questionText" : "",
-        "correctAnswer" : "true",
+        "questionText" : "True or False: Mexico City is the capital of Mexico",
+        "correctAnswer" : "false",
         "options" : ["true", "false"]
     }
     ]
