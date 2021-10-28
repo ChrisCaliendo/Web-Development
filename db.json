@@ -2,7 +2,6 @@
 {
     "htmlQuestions": [
     {
-        //1
         "questionType" : "binaryChoice",
         "questionText" : "Is this a test?",
         "correctAnswer" : "yes",
