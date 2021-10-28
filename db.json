@@ -1,8 +1,7 @@
 
 {
-    "mathQuestions": [
+    "htmlQuestions": [
     {
-        ""
         "questionType" : "binaryChoice",
         "questionText" : "Is this a test?",
         "correctAnswer" : "yes",
@@ -70,7 +69,7 @@
         "options" : ["", "", "", "yes"]
     }
     ],
-    "triviaQuestions": [
+    "bootstrapsQuestions": [
     {
         "questionType" : "binaryChoice",
         "questionText" : "Is this a test?",
