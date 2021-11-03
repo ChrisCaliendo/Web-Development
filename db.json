@@ -1,14 +1,406 @@
 {
-  "posts": [
-    { "id": 1, "titl": "Post 1"},
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "htmlQuestions": [
+    {
+      "qNum": 1,
+      "qType": "multiChoice",
+      "qDesc": "What does HTML stand for?",
+      "rightAnswer": "HyperText Markup Language",
+      "op1": "HyperText Markup Language",
+      "op2": "HiddenText Markup Language",
+      "op3": "HyperText Makeup Language",
+      "op4": "HyperTextual Multifaceted Language"
+    },
+    {
+      "qNum": 2,
+      "qType": "multiChoice",
+      "qDesc": "Which tag do you use to make a break in the page?",
+      "rightAnswer": "<br>",
+      "op1": "<i>",
+      "op2": "<b>",
+      "op3": "<br>",
+      "op4": "<a>"
+    },
+    {
+      "qNum": 3,
+      "qType": "multiChoice",
+      "qDesc": "Which tag do you use to make text bold?",
+      "rightAnswer": "<b>",
+      "op1": "<i>",
+      "op2": "<b>",
+      "op3": "<br>",
+      "op4": "<a>"
+    },
+    {
+      "qNum": 4,
+      "qType": "multiChoice",
+      "qDesc": "What character do you use to represent the closing tag?",
+      "rightAnswer": "/",
+      "op1": ".",
+      "op2": ";",
+      "op3": "/",
+      "op4": ":"
+    },
+    {
+      "qNum": 5,
+      "qType": "multiChoice",
+      "qDesc": "Which tag is used to create a list item?",
+      "rightAnswer": "<li>",
+      "op1": "<ol>",
+      "op2": "<ul>",
+      "op3": "<li>",
+      "op4": "<el>"
+    },
+    {
+      "qNum": 6,
+      "qType": "trueOrFalse",
+      "qDesc": "The tage <input type = 'text'> creates a simple button on the page",
+      "rightAnswer": "false"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 7,
+      "qType": "multiChoice",
+      "qDesc": "What does the tage <tr> stand for?",
+      "rightAnswer": "table row",
+      "op1": "table row",
+      "op2": "test reel",
+      "op3": "task row",
+      "op4": "table rule"
+    },
+    {
+      "qNum": 8,
+      "qType": "multiChoice",
+      "qDesc": "Which of these is not an option to have as a bullet point in an ordered list",
+      "rightAnswer": "star",
+      "op1": "disc",
+      "op2": "square",
+      "op3": "star",
+      "op4": "circle"
+    },
+    {
+      "qNum": 9,
+      "qType": "multiChoice",
+      "qDesc": "What tage to do you use to initialize an html document",
+      "rightAnswer": "<!DOCTYPE html>",
+      "op1": "<!DOCTYPE>",
+      "op2": "<!DOCTYPE html>",
+      "op3": "<!html>",
+      "op4": "<DOCTYPE html>"
+    },
+    {
+      "qNum": 10,
+      "qType": "styleQuestion",
+      "qDesc": "Which of these buttons is using a style selector that changes the text 'color' attribute?",
+      "rightAnswer": "color: red",
+      "op1": "background-color: red;",
+      "op2": "color: red",
+      "op3": "border-color: red",
+      "op4": "font-size: large"
+    },
+    {
+      "qNum": 11,
+      "qType": "numInput",
+      "qDesc": "What is the number for the latest version of HTML?",
+      "rightAnswer": "5"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 12,
+      "qType": "trueOrFalse",
+      "qDesc": "You can create multicolored text with html",
+      "rightAnswer": "true"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 13,
+      "qType": "trueOrFalse",
+      "qDesc": "Hyperlinks can only be applied to text",
+      "rightAnswer": "false"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 14,
+      "qType": "trueOrFalse",
+      "qDesc": "Using a hyperlink will create a new tab by default",
+      "rightAnswer": "true"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 15,
+      "qType": "multiChoice",
+      "qDesc": "Which tag makes the largest heading in html?",
+      "rightAnswer": "<h1>",
+      "op1": "<h1>",
+      "op2": "<h3>",
+      "op3": "<h6>",
+      "op4": "<h12>"
+    },
+    {
+      "qNum": 16,
+      "qType": "multiChoice",
+      "qDesc": "which tag makes text underlined?",
+      "rightAnswer": "<u>",
+      "op1": "<i>",
+      "op2": "<ul>",
+      "op3": "<u>",
+      "op4": "<b>"
+    },
+    {
+      "qNum": 17,
+      "qType": "multiChoice",
+      "qDesc": "Which of these buttons is using a style selector that changes the border color attribute?",
+      "rightAnswer": "border-color: red",
+      "op1": "background-color: red;",
+      "op2": "color: red",
+      "op3": "border-color: red",
+      "op4": "font-size: large"
+    },
+    {
+      "qNum": 18,
+      "qType": "multiChoice",
+      "qDesc": "Which tag is used to create a list item",
+      "rightAnswer": "<li>",
+      "op1": "<ol>",
+      "op2": "<ul>",
+      "op3": "<li>",
+      "op4": "<el>"
+    },
+    {
+      "qNum": 19,
+      "qType": "numInput",
+      "qDesc": "What is [7 - 24 / 8 x 4 + 6]?",
+      "rightAnswer": "1"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 20,
+      "qType": "multiChoice",
+      "qDesc": "Which tag do you use to make text bold",
+      "rightAnswer": "<b>",
+      "op1": "<i>",
+      "op2": "<b>",
+      "op3": "<br>",
+      "op4": "<a>"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "bootstrapsQuestions": [
+    {
+      "qNum": 1,
+      "qType": "multiChoice",
+      "qDesc": "What is Bootstraps?",
+      "rightAnswer": "A Framework",
+      "op1": "<A Language>",
+      "op2": "<A Framework>",
+      "op3": "<Executable Software>",
+      "op4": "<A Compiler>"
+    },
+    {
+      "qNum": 2,
+      "qType": "classQuestion",
+      "qDesc": "What is the name for the fear for fish?",
+      "rightAnswer": "Which of these bootstraps styles is called 'info'?",
+      "op1": "btn-primary",
+      "op2": "btn-info",
+      "op3": "btn-secondary",
+      "op4": "btn-danger"
+    },
+    {
+      "qNum": 3,
+      "qType": "multiChoice",
+      "qDesc": "Which of these is the bootstrap class to make the navbar fixed to the top of the page?",
+      "rightAnswer": "navbar-fixed-top",
+      "op1": "navbar-top",
+      "op2": "navbar-bottom",
+      "op3": "navbar-fixed",
+      "op4": "navbar-fixed-top"
+    },
+    {
+      "qNum": 4,
+      "qType": "multiChoice",
+      "qDesc": "What border-radius makes an img appear round",
+      "rightAnswer": "50%",
+      "op1": "25%",
+      "op2": "50%",
+      "op3": "75%",
+      "op4": "100%"
+    },
+    {
+      "qNum": 5,
+      "qType": "multiChoice",
+      "qDesc": "Which of these classes does not describe a valid screen size",
+      "rightAnswer": "xl",
+      "op1": "sm",
+      "op2": "md",
+      "op3": "lg",
+      "op4": "xl"
+    },
+    {
+      "qNum": 6,
+      "qType": "numInput",
+      "qDesc": "How many context classes are their you can use for a progress bar?",
+      "rightAnswer": "9"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 7,
+      "qType": "numInput",
+      "qDesc": "How many context classes are their you can use for an alert?",
+      "rightAnswer": "8"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 8,
+      "qType": "numInput",
+      "qDesc": "How many columns can you have in a single row using Bootsraps grid feature?",
+      "rightAnswer": "12"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 9,
+      "qType": "trueOrFalse",
+      "qDesc": "You can nest bootstraps containers",
+      "rightAnswer": "true"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 10,
+      "qType": "binaryChoice",
+      "qDesc": "Which of these is the bootstraps table hover styling as opposed to the CSS style?",
+      "rightAnswer": "table-hover",
+      "op1": "table:hover",
+      "op2": "table-hover",
+      "op3": "",
+      "op4": ""
+    },
+    {
+      "qNum": 11,
+      "qType": "multiChoice",
+      "qDesc": "What is the rarest M&M color?",
+      "rightAnswer": "brown",
+      "op1": "green",
+      "op2": "red",
+      "op3": "orange",
+      "op4": "brown"
+    },
+    {
+      "qNum": 12,
+      "qType": "multiChoice",
+      "qDesc": "What is the largest state in the United States by size?",
+      "rightAnswer": "Alaska",
+      "op1": "Alaska",
+      "op2": "Texas",
+      "op3": "California",
+      "op4": "New York"
+    },
+    {
+      "qNum": 13,
+      "qType": "multiChoice",
+      "qDesc": "What is the largest state in the United States by size?",
+      "rightAnswer": "Alaska",
+      "op1": "Alaska",
+      "op2": "Texas",
+      "op3": "California",
+      "op4": "New York"
+    },
+    {
+      "qNum": 14,
+      "qType": "multiChoice",
+      "qDesc": "Which country is responsible for creating the olympic games?",
+      "rightAnswer": "Greece",
+      "op1": "Italy",
+      "op2": "Greece",
+      "op3": "England",
+      "op4": "France"
+    },
+    {
+      "qNum": 15,
+      "qType": "multiChoice",
+      "qDesc": "How many countries in the world are there in Europe?",
+      "rightAnswer": "44",
+      "op1": "8",
+      "op2": "50",
+      "op3": "48",
+      "op4": "44"
+    },
+    {
+      "qNum": 16,
+      "qType": "multiChoice",
+      "qDesc": "How many countries in the world are there in Europe?",
+      "rightAnswer": "44",
+      "op1": "8",
+      "op2": "50",
+      "op3": "48",
+      "op4": "44"
+    },
+    {
+      "qNum": 17,
+      "qType": "multiChoice",
+      "qDesc": "What is the largest state in the United States by size?",
+      "rightAnswer": "Alaska",
+      "op1": "Alaska",
+      "op2": "Texas",
+      "op3": "California",
+      "op4": "New York"
+    },
+    {
+      "qNum": 18,
+      "qType": "multiChoice",
+      "qDesc": "Which country is responsible for creating the olympic games?",
+      "rightAnswer": "Greece",
+      "op1": "Italy",
+      "op2": "Greece",
+      "op3": "England",
+      "op4": "France"
+    },
+    {
+      "qNum": 19,
+      "qType": "multiChoice",
+      "qDesc": "How many countries in the world are there in Europe?",
+      "rightAnswer": "44",
+      "op1": "8",
+      "op2": "50",
+      "op3": "48",
+      "op4": "44"
+    },
+    {
+      "qNum": 20,
+      "qType": "trueOrFalse",
+      "qDesc": "True or False: Mexico City is the capital of Mexico",
+      "rightAnswer": "false"
+      "op1": "",
+      "op2": "",
+      "op3": "",
+      "op4": ""
+    }
+  ]
 }
