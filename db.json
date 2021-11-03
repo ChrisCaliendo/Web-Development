@@ -2,147 +2,147 @@
 {
     "htmlQuestions": [
     {
-        "questionNumber" : 1,
+        
         "questionType" : "multiChoice",
         "questionText" : "What does HTML stand for?",
         "correctAnswer" : "HyperText Markup Language",
         "options" : ["HyperText Markup Language", "HiddenText Markup Language", "HyperText Makeup Language", "HyperTextual Multifaceted Language"]
     },
     {
-        "questionNumber" : 2,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag do you use to make a break in the page?",
         "correctAnswer" : "<br>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
     },
     {
-        "questionNumber" : 3,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag do you use to make text bold?",
         "correctAnswer" : "<b>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
     },
     {
-        "questionNumber" : 4,
+        
         "questionType" : "multiChoice",
         "questionText" : "What character do you use to represent the closing tag?",
         "correctAnswer" : "/",
         "options" : [".", ";", "/", ":"]
     },
     {
-        "questionNumber" : 5,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag is used to create a list item?",
         "correctAnswer" : "<li>",
         "options" : ["<ol>", "<ul>", "<li>", "<el>"]
     },
     {
-        "questionNumber" : 6,
+        
         "questionType" : "trueOrFalse",
         "questionText" : "The tage <input type = 'text'> creates a simple button on the page",
         "correctAnswer" : "false",
         "options" : []
     },
     {
-        "questionNumber" : 7,
+        
         "questionType" : "multiChoice",
         "questionText" : "What does the tage <tr> stand for?",
         "correctAnswer" : "table row",
         "options" : ["table row", "test reel", "task row", "table rule"]
     },
     {
-        "questionNumber" : 8,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which of these is not an option to have as a bullet point in an ordered list",
         "correctAnswer" : "star",
         "options" : ["disc", "square", "star", "circle"]
     },
     {
-        "questionNumber" : 9,
+        
         "questionType" : "multiChoice",
         "questionText" : "What tage to do you use to initialize an html document",
         "correctAnswer" : "<!DOCTYPE html>",
         "options" : ["<!DOCTYPE>", "<!DOCTYPE html>", "<!html>", "<DOCTYPE html>"]
     },
     {
-        "questionNumber" : 10,
+        
         "questionType" : "styleQuestion",
         "questionText" : "Which of these buttons is using a style selector that changes the text 'color' attribute?",
         "correctAnswer" : "color: red",
         "options" : ["background-color: red;", "color: red", "border-color: red", "font-size: large"]
     },
     {
-        "questionNumber" : 11,
+        
         "questionType" : "numInput",
         "questionText" : "What is the number for the latest version of HTML?",
         "correctAnswer" : "5",
         "options" : []
     },
     {
-        "questionNumber" : 12,
+        
         "questionType" : "trueOrFalse",
         "questionText" : "You can create multicolored text with html",
         "correctAnswer" : "true",
         "options" : []
     },
     {
-        "questionNumber" : 13,
+        
         "questionType" : "trueOrFalse",
         "questionText" : "Hyperlinks can only be applied to text",
         "correctAnswer" : "false",
         "options" : []
     },
     {
-        "questionNumber" : 13,
+        
         "questionType" : "trueOrFalse",
         "questionText" : "Using a hyperlink will create a new tab by default",
         "correctAnswer" : "true",
         "options" : []
     },
     {
-        "questionNumber" : 14,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag do you use to make text bold",
         "correctAnswer" : "<b>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
     },
     {
-        "questionNumber" : 15,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag do you use to make text bold",
         "correctAnswer" : "<b>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
     },
     {
-        "questionNumber" : 16,
+        
         "questionType" : "multiChoice",
         "questionText" : "What character do you use to represent the closing tag",
         "correctAnswer" : "/",
         "options" : [".", ";", "/", ":"]
     },
     {
-        "questionNumber" : 17,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag is used to create a list item",
         "correctAnswer" : "<li>",
         "options" : ["<ol>", "<ul>", "<li>", "<el>"]
     },
     {
-        "questionNumber" : 18,
+        
         "questionType" : "numInput",
         "questionText" : "What is [7 - 24 / 8 x 4 + 6]?",
         "correctAnswer" : "1",
         "options" : []
     },
     {
-        "questionNumber" : 19,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which tag do you use to make text bold",
         "correctAnswer" : "<b>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
     },
     {
-        "questionNumber" : 20,
+        
         "questionType" : "numInput",
         "questionText" : "What character do you use to represent the closing tag",
         "correctAnswer" : "/",
@@ -151,140 +151,140 @@
     ],
     "bootstrapsQuestions": [
     {
-        "questionNumber" : 1,
+        
         "questionType" : "multiChoice",
         "questionText" : "What is Bootstraps?",
         "correctAnswer" : "A Framework",
         "options" : ["A Language", "A Framework", "Executable Software", "A Compiler"]
     },
     {
-        "questionNumber" : 2,
+        
         "questionType" : "classQuestion",
         "questionText" : "What is the name for the fear for fish?",
         "correctAnswer" : "Which of these bootstraps styles is called 'info'?",
         "options" : ["btn-primary", "btn-info", "btn-secondary", "btn-danger"]
     },
     {
-        "questionNumber" : 3,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which of these is the bootstrap class to make the navbar fixed to the top of the page?",
         "correctAnswer" : "navbar-fixed-top",
         "options" : ["navbar-top", "navbar-bottom", "navbar-fixed", "navbar-fixed-top"]
     },
     {
-        "questionNumber" : 4,
+        
         "questionType" : "multiChoice",
         "questionText" : "What border-radius makes an img appear round",
         "correctAnswer" : "50%",
         "options" : ["25%", "50%", "75%", "100%"]
     },
     {
-        "questionNumber" : 5,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which of these classes does not describe a valid screen size",
         "correctAnswer" : "xl",
         "options" : ["sm", "md", "lg", "xl"]
     },
     {
-        "questionNumber" : 6,
+        
         "questionType" : "numInput",
         "questionText" : "How many context classes are their you can use for a progress bar?",
         "correctAnswer" : "9",
         "options" : []
     },
     {
-        "questionNumber" : 7,
+        
         "questionType" : "numInput",
         "questionText" : "How many context classes are their you can use for an alert?",
         "correctAnswer" : "8",
         "options" : []
     },
     {
-        "questionNumber" : 8,
+        
         "questionType" : "numInput",
         "questionText" : "How many columns can you have in a single row using Bootsraps grid feature?",
         "correctAnswer" : "12",
         "options" : []
     },
     {
-        "questionNumber" : 9,
+        
         "questionType" : "trueOrFalse",
         "questionText" : "You can nest bootstraps containers",
         "correctAnswer" : "true",
         "options" : []
     },
     {
-        "questionNumber" : 10,
+        
         "questionType" : "binaryChoice",
         "questionText" : "Which of these is the bootstraps table hover styling as opposed to the CSS style?",
         "correctAnswer" : "table-hover",
         "options" : ["table:hover", "table-hover"]
     },
     {
-        "questionNumber" : 11,
+        
         "questionType" : "multiChoice",
         "questionText" : "What is the rarest M&M color?",
         "correctAnswer" : "brown",
         "options" : ["green", "red", "orange", "brown"]
     },
     {
-        "questionNumber" : 12,
+        
         "questionType" : "multiChoice",
         "questionText" : "What is the largest state in the United States by size?",
         "correctAnswer" : "Alaska",
         "options" : ["Alaska", "Texas", "California", "New York"]
     },
     {
-        "questionNumber" : 13,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which country is responsible for creating the olympic games?",
         "correctAnswer" : "Greece",
         "options" : ["Italy", "Greece", "England", "France"]
     },
     {
-        "questionNumber" : 14,
+        
         "questionType" : "multiChoice",
         "questionText" : "How many countries in the world are there in Europe?",
         "correctAnswer" : "44",
         "options" : ["8", "50", "48", "44"]
     },
     {
-        "questionNumber" : 15,
+        
         "questionType" : "true_false",
         "questionText" : "True or False: Mexico City is the capital of Mexico",
         "correctAnswer" : "false",
         "options" : ["true", "false"]
     },
     {
-        "questionNumber" : 16,
+        
         "questionType" : "multiChoice",
         "questionText" : "What is the rarest M&M color?",
         "correctAnswer" : "brown",
         "options" : ["green", "red", "orange", "brown"]
     },
     {
-        "questionNumber" : 17,
+        
         "questionType" : "multiChoice",
         "questionText" : "What is the largest state in the United States by size?",
         "correctAnswer" : "Alaska",
         "options" : ["Alaska", "Texas", "California", "New York"]
     },
     {
-        "questionNumber" : 18,
+        
         "questionType" : "multiChoice",
         "questionText" : "Which country is responsible for creating the olympic games?",
         "correctAnswer" : "Greece",
         "options" : ["Italy", "Greece", "England", "France"]
     },
     {
-        "questionNumber" : 19,
+        
         "questionType" : "multiChoice",
         "questionText" : "How many countries in the world are there in Europe?",
         "correctAnswer" : "44",
         "options" : ["8", "50", "48", "44"]
     },
     {
-        "questionNumber" : 20,
+        
         "questionType" : "true_false",
         "questionText" : "True or False: Mexico City is the capital of Mexico",
         "correctAnswer" : "false",
