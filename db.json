@@ -1,38 +1,12 @@
-
 {
-    "htmlQuestions": [
-    {
-        "qNum" : 1,
-        "qType" : "multiChoice",
-        "qDesc" : "What does HTML stand for?",
-        "rightAnswer" : "HyperText Markup Language",
-        "options" : ["HyperText Markup Language", "HiddenText Markup Language", "HyperText Makeup Language", "HyperTextual Multifaceted Language"]
-    },
-    {
-        "qNum" : 2,
-        "qType" : "multiChoice",
-        "qDesc" : "Which tag do you use to make a break in the page?",
-        "rightAnswer" : "<br>",
-        "options" : ["<i>", "<b>", "<br>", "<a>"]
-    }
-    
-    ],
-    "bootstrapsQuestions": [
-    {
-        "qNum" : 1,
-        "qType" : "multiChoice",
-        "qDesc" : "What is Bootstraps?",
-        "rightAnswer" : "A Framework",
-        "options" : ["A Language", "A Framework", "Executable Software", "A Compiler"]
-    },
-    {
-        "qNum" : 2,
-        "qType" : "classQuestion",
-        "qDesc" : "What is the name for the fear for fish?",
-        "rightAnswer" : "Which of these bootstraps styles is called 'info'?",
-        "options" : ["btn-primary", "btn-info", "btn-secondary", "btn-danger"]
-    }
-    ]
+  "htmlQuestions": [
+    { "qNum": 1, "qDesc" : "What does HTML stand for?",  },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "bootstrapsQuestions": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ]
 }
-
 
