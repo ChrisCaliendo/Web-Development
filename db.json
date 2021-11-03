@@ -3,20 +3,12 @@
     {
       "qType": "multiChoice",
       "qDesc": "What does HTML stand for?",
-      "rightAnswer": "HyperText Markup Language",
-      "op1": "HyperText Markup Language",
-      "op2": "HiddenText Markup Language",
-      "op3": "HyperText Makeup Language",
-      "op4": "HyperTextual Multifaceted Language"
+      
     },
     {
       "qType": "multiChoice",
       "qDesc": "Which tag do you use to make a break in the page?",
-      "rightAnswer": "<br>",
-      "op1": "<i>",
-      "op2": "<b>",
-      "op3": "<br>",
-      "op4": "<a>"
+      
     }
   ]
 }
