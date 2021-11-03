@@ -2,12 +2,12 @@
   "htmlQuestions": [
     {
       "qType": "multiChoice",
-      "qDesc": "What does HTML stand for?",
+      "qDesc": "What does HTML stand for?"
       
     },
     {
       "qType": "multiChoice",
-      "qDesc": "Which tag do you use to make a break in the page?",
+      "qDesc": "Which tag do you use to make a break in the page?"
       
     }
   ]
