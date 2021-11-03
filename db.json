@@ -1,24 +1,15 @@
-{
-  "htmlQuestions": [
-    {
-      "qNum": 1,
-      "qType": "multiChoice",
-      "qDesc": "What does HTML stand for?",
-      "rightAnswer": "HyperText Markup Language",
-      "op1": "HyperText Markup Language",
-      "op2": "HiddenText Markup Language",
-      "op3": "HyperText Makeup Language",
-      "op4": "HyperTextual Multifaceted Language"
-    },
-    {
-      "qNum": 2,
-      "qType": "multiChoice",
-      "qDesc": "Which tag do you use to make a break in the page?",
-      "rightAnswer": "<br>",
-      "op1": "<i>",
-      "op2": "<b>",
-      "op3": "<br>",
-      "op4": "<a>"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Post 1"
+  },
+  {
+    "id": 2,
+    "title": "Post 2"
+  },
+  {
+    "id": 3,
+    "title": "Post 3"
+  }
+]
+
