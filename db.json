@@ -1,4 +1,5 @@
 
+{
     "htmlQuestions": [
     {
         "qNum" : 1,
@@ -13,5 +14,25 @@
         "qDesc" : "Which tag do you use to make a break in the page?",
         "rightAnswer" : "<br>",
         "options" : ["<i>", "<b>", "<br>", "<a>"]
+    }
+    
+    ],
+    "bootstrapsQuestions": [
+    {
+        "qNum" : 1,
+        "qType" : "multiChoice",
+        "qDesc" : "What is Bootstraps?",
+        "rightAnswer" : "A Framework",
+        "options" : ["A Language", "A Framework", "Executable Software", "A Compiler"]
     },
-]
+    {
+        "qNum" : 2,
+        "qType" : "classQuestion",
+        "qDesc" : "What is the name for the fear for fish?",
+        "rightAnswer" : "Which of these bootstraps styles is called 'info'?",
+        "options" : ["btn-primary", "btn-info", "btn-secondary", "btn-danger"]
+    }
+    ]
+}
+
+
