@@ -1,10 +1,4 @@
 {
-  "hats": [
-    {"qType": "multiChoice", "qDesc": "What does HTML stand for?"},
-    {"qType": "multiChoice", "qDesc": "Which tag do you use to make a break in the page?"}
-  ]
-}
-{
   "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
